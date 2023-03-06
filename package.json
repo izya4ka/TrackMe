@@ -1,0 +1,33 @@
+{
+  "name": "trackme",
+  "version": "1.0.0",
+  "description": "Track your Russian Post packages with Telegram Bot",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon ./src/start.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izya4ka/TrackMe.git"
+  },
+  "author": "Andreev Bogdan",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/izya4ka/TrackMe/issues"
+  },
+  "homepage": "https://github.com/izya4ka/TrackMe#readme",
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.61.3",
+    "@typescript-eslint/parser": "^5.54.0",
+    "eslint": "^8.35.0",
+    "nodemon": "^2.0.21",
+    "prettier": "^2.8.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "mongodb": "^5.1.0",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
